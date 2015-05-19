@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		38A6320C1B051FEE005C0EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6320B1B051FEE005C0EC5 /* AppDelegate.swift */; };
-		38A6320E1B051FEE005C0EC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6320D1B051FEE005C0EC5 /* ViewController.swift */; };
 		38A632111B051FEE005C0EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A6320F1B051FEE005C0EC5 /* Main.storyboard */; };
 		38A632131B051FEE005C0EC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A632121B051FEE005C0EC5 /* Images.xcassets */; };
 		38A632161B051FEE005C0EC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38A632141B051FEE005C0EC5 /* LaunchScreen.xib */; };
 		38A632221B051FEF005C0EC5 /* GroceryListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A632211B051FEF005C0EC5 /* GroceryListAppTests.swift */; };
+		38A6322C1B0527D8005C0EC5 /* ShoppingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6322B1B0527D8005C0EC5 /* ShoppingListTableViewController.swift */; };
+		38A6322E1B05281F005C0EC5 /* ShoppingListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6322D1B05281F005C0EC5 /* ShoppingListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		38A632061B051FEE005C0EC5 /* GroceryListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A6320A1B051FEE005C0EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A6320B1B051FEE005C0EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38A6320D1B051FEE005C0EC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		38A632101B051FEE005C0EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38A632121B051FEE005C0EC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		38A632151B051FEE005C0EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		38A6321B1B051FEF005C0EC5 /* GroceryListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A632201B051FEF005C0EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A632211B051FEF005C0EC5 /* GroceryListAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListAppTests.swift; sourceTree = "<group>"; };
+		38A6322B1B0527D8005C0EC5 /* ShoppingListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewController.swift; sourceTree = "<group>"; };
+		38A6322D1B05281F005C0EC5 /* ShoppingListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				38A6320B1B051FEE005C0EC5 /* AppDelegate.swift */,
-				38A6320D1B051FEE005C0EC5 /* ViewController.swift */,
 				38A6320F1B051FEE005C0EC5 /* Main.storyboard */,
+				38A6322B1B0527D8005C0EC5 /* ShoppingListTableViewController.swift */,
+				38A6322D1B05281F005C0EC5 /* ShoppingListCell.swift */,
 				38A632121B051FEE005C0EC5 /* Images.xcassets */,
 				38A632141B051FEE005C0EC5 /* LaunchScreen.xib */,
 				38A632091B051FEE005C0EC5 /* Supporting Files */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A6320E1B051FEE005C0EC5 /* ViewController.swift in Sources */,
+				38A6322E1B05281F005C0EC5 /* ShoppingListCell.swift in Sources */,
 				38A6320C1B051FEE005C0EC5 /* AppDelegate.swift in Sources */,
+				38A6322C1B0527D8005C0EC5 /* ShoppingListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
